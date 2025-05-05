@@ -8,7 +8,7 @@ class Worker:
     def salary(self):
         return self.rate * self.days
 
-worker1 = Worker("Иван", "Иванович", 2000, 31)
+worker1 = Worker("Иван", "Зарплатович", 2000, 31)
 
 print(f"{worker1.name} {worker1.surname}")
 print(f"Зарплата: {worker1.salary()} рублей.")

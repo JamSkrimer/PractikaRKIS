@@ -12,7 +12,7 @@ class Worker:
     def get_surname(self):
         return self.__surname
 
-worker1 = Worker("Иван", "Втихоряевич", 2000, 31)
+worker1 = Worker("Чувак", "Втихоряевич", 2000, 31)
 
 print(f"{worker1.get_name()} {worker1.get_surname()}")
 print(f"Зарплата: {worker1.salary()} рублей.")

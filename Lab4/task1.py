@@ -72,7 +72,7 @@ class DataBas:
             print("Его оценки: ", marks)
             print("Средний балл: ", average_grade)
         else:
-            print("Студент с такой фамилией не найден.")
+            print("Студент не найден.")
 
     def edit_student(self,surname):
         self.cursor.execute("SELECT * FROM student WHERE surname = ?", (surname,))
